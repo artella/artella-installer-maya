@@ -1,16 +1,20 @@
 {
   "plugins": [
     {
+      "name": "artella/artella-plugins-core",
+      "optional":  false
+    },
+    {
       "name": "artella/artella-plugins-savetocloud",
-      "optional":  "False"
+      "optional":  true
     },
     {
       "name": "artella/artella-plugins-getdependencies",
-      "optional": "True"
+      "optional": true
     },
     {
       "name": "artella/artella-plugins-uninstaller",
-      "optional": "True"
+      "optional": false
     }
   ],
   "supported_versions": [
