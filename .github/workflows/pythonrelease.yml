@@ -1,8 +1,10 @@
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+  create:
     tags:
-      - '*'
+      - *
 
 name: Create Release
 
