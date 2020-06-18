@@ -1,9 +1,0 @@
-plugins:
-  - "artella/artella-plugins-savetocloud"
-  - "artella/artella-plugins-getdependencies"
-  - "artella/artella-plugins-uninstaller"
-supported_versions:
-  - "2017"
-  - "2018"
-  - "2019"
-  - "2020"
