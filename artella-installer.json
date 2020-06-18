@@ -1,8 +1,17 @@
 {
   "plugins": [
-    "artella/artella-plugins-savetocloud",
-    "artella/artella-plugins-getdependencies",
-    "artella/artella-plugins-uninstaller"
+    {
+      "name": "artella/artella-plugins-savetocloud",
+      "optional":  "False"
+    },
+    {
+      "name": "artella/artella-plugins-getdependencies",
+      "optional": "True"
+    },
+    {
+      "name": "artella/artella-plugins-uninstaller",
+      "optional": "True"
+    }
   ],
   "supported_versions": [
     "2017",
