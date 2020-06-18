@@ -4,7 +4,7 @@ on:
       - master
   create:
     tags:
-      - *
+      - '*'
 
 name: Create Release
 
