@@ -29,6 +29,12 @@
       "name": "Artella Uninstaller",
       "description": "Artella Plugin that allows to uninstall Artella DCC plugin in an easy way",
       "optional": false
+    },
+    {
+      "repo": "artella/artella-plugins-about",
+      "name": "About",
+      "description": "Artella Plugin that allows to show information about the current installed Artella plugins.",
+      "optional": false
     }
   ],
   "supported_versions": [
