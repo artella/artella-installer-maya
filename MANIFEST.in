@@ -1,0 +1,4 @@
+include versioneer.py
+include maya_installer/_version.py
+include artella-installer.json
+recursive-exclude * *.py[co]
