@@ -42,8 +42,8 @@ def get_config():
     cfg.VCS = "git"
     cfg.style = "pep440"
     cfg.tag_prefix = "releases/"
-    cfg.parentdir_prefix = "artella-plugins-core-releases-"
-    cfg.versionfile_source = "artella/_version.py"
+    cfg.parentdir_prefix = "artella-installer-maya-releases-"
+    cfg.versionfile_source = "artella/installer/maya/_version.py"
     cfg.verbose = False
     return cfg
 
